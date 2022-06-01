@@ -1,0 +1,25 @@
+h3 {
+    font-size: 25px !important;
+    box-shadow: 5px 5px 10px brown;
+   }
+
+.btn-warning:hover{
+    background: #ff3fbc ;
+    box-shadow: 5px 5px 10px purple;
+}
+
+.btn-warning{
+    box-shadow: 5px 5px 10px crimson;
+}
+
+canvas{
+    animation-name: Mr-Art;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Mr-Art{
+    from {box-shadow: 1px 1px 10px #ff0000 ;}
+
+    to {box-shadow: 5px 5px 100px #f22ac6 ;}
+}
